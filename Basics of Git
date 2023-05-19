@@ -1,0 +1,36 @@
+1. pwd -> print working directory and will output the complete path of our current working directory.
+2. ls -> to show the list of the contents of our currrent working directory.
+3. ls -a -> To show all of the contents including the hidden directories and files.
+4. mkdir <directory-name> -> to make a new directory.
+5. cd <directory-name> -> to move into the directory.
+6. If want to exit or cancel a command:
+	1. type q for quit.
+	2. The Escape key. 
+	3. The command with Ctrl + C. 
+	4. Last case, restart the app to start a new session.
+7. To add your author information use the Git config command. Global will automatically set this configuration in your user home directory and be applied to all of your repositories. 
+	1. git config --global user.name "<name-of-user>".
+	2. git config --global user.email "<email-of-user>".
+8. If you want to use configurations for specific repositories change to that project directory first. Then run the same Git fig user name and user email command but without the global argument. This user name and email will only be associated with this specific repository.
+9. Setting up a local repository:
+	1. Make sure we are in the correct working directory by using 'pwd'.
+	2. 'git init' has to be run only once after creating a repository. This is to initialize the git repository.
+10. We can't have a git repo inside of another git repo.
+11. The file extension md, is a markdown file, which is a markup language used to add formatting to elements in a plain text document.
+	1. A line enclosed by two asterisks on each end. This is markdown syntax for bolded text.
+	2. One asterisk is italicized text.
+	3. 2 Hashes is for H2 heading.
+	4. a paragraph does not need any special syntax.
+12. Staging files with git add 
+	1. git add -A -> for staging all changes.
+	2. git add . -> for staging all changes except deleted files.
+	3. git ass -u -> for staging all changes except new files.
+	4. git add <file-name> -> for staging a file by its file name.
+13. for commiting -> git commit -m "<message-we-want-write>". the -m is for message.
+14. The timestamp in the git repository refers to when the commit was made, not when it was pushed to the repo.
+15. Git push is used to upload the local commits into the remote repository ->  command used is "git push origin master".
+16. Git pull is used to download the commits from the remote repository into the local repository ->  command used is "git pull origin master".
+17. Deleting a repository or branch:
+	1. If in local, just delete the folder or file in your finder.
+	2. If in remote, under Settings, find a delete repository option. Select Delete Repository to delete your remote repository.
+18. Commit your changes before switching branches to not lose data. 
